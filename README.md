@@ -5,7 +5,20 @@ Why is this needed? Microsoft artificaly blocks Windows 11 from being installed 
 
 **Refrescar works on computers running Windows 10 that are blocked from updating due to incompatible CPUs and TPM 1.2 only. Refrescar does not work on computers that are blocked from updating because they lack UEFI boot or because the contain no TPM module. Use [Microsoft's PC Health Check](https://aka.ms/GetPCHealthCheckApp) to see why your PC is blocked from updating.**
 ## Usage
+
+#### Download and run Refrescar
 TODO
+
+#### Whats next?
+After running Refrescar, your PC will be able to update to Windows 11 - you'll still need to install it. 
+
+1. Download the [Windows 11 Installation Assistant](https://www.microsoft.com/en-us/software-download/windows11) directly from Microsoft
+
+2. Open the Assistant and select `Download Windows 11 Disk Image (ISO)`. Go through the prompts and download the ISO. 
+
+3. When the ISO finishes downloading, right-click on it and pick `Open with`, then `Windows Explorer` to mount the virtual disc.  Then double-click the setup file to begin installation.
+
+4. Thats it! Just be aware that Microsoft reserves the right to withhold future security updates if you install Windows 11 on an unsupported machine. 
  
 ## Contributing
 1. Fork this repository.
