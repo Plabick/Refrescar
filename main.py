@@ -15,7 +15,6 @@ def resource_path(relative_path):
 
     return os.path.join(base_path, relative_path)
 
-
 if __name__ == '__main__':
     REGISTRY_LOCATION = r'SYSTEM\Setup\MoSetup'
     REGISTRY_KEY = r'AllowUpgradesWithUnsupportedTPMOrCPU'
@@ -40,8 +39,8 @@ if __name__ == '__main__':
         success = Label(text="Success", anchor=CENTER, bg="white", font=('Arial bold', '20'))
         enabled = Label(text="The Windows 11 update has been enabled", anchor=CENTER, bg="white",
                         font=('Arial ', '15'))
-        next = Label(text="Use the Windows 11 Upgrade Assistant to install the update", anchor=CENTER, bg="white",
-                     font=('Arial ', '12'))
+        next = Label(text="Use the Windows 11 Upgrade Assistant to install the update", anchor=CENTER, bg="white", font=('Arial ', '12'))
+
         success.pack()
         enabled.pack()
         next.pack()
@@ -69,6 +68,7 @@ if __name__ == '__main__':
 
     # Add logo to window
     logo = Image.open(resource_path("images/logo.ppm")).resize((318, 105))
+
     logoImage = ImageTk.PhotoImage(logo)
     logoLabel = Label(image=logoImage, bg="white")
     logoLabel.image = logoImage
@@ -90,6 +90,7 @@ if __name__ == '__main__':
 
     # Display Run button
     button = Image.open(resource_path("images/button.pbm")).resize((275, 42))
+
     button_image = ImageTk.PhotoImage(button)
     btn = Button(window, image=button_image, bg='white', fg='white', highlightthickness=0, bd=0, command=on_click)
     btn.place(relx=0.5, rely=0.5, anchor=CENTER)
