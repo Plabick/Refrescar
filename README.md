@@ -23,6 +23,9 @@ After running Refrescar, your PC will be able to update to Windows 11 - you'll s
 
 4. That's it! Just be aware that Microsoft reserves the right to withhold future security updates if you install Windows 11 on an unsupported machine. 
  
+## Screen shot
+![Screenshot](images/screenshot.PNG)
+
 ## Contributing
 1. Fork this repository.
 2. Create a branch: `git checkout -b <branch_name>`.
@@ -32,3 +35,4 @@ After running Refrescar, your PC will be able to update to Windows 11 - you'll s
 
 
 Alternatively, see the GitHub documentation on [creating a pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
+
