@@ -12,7 +12,6 @@ Download the latest version of Refrescar from (here)[https://github.com/Plabick/
 #### Using Refrescar
 Once Refrescar is running, it's very simple to use. Simply click the only button in the window.
 
-
 #### Whats next?
 After running Refrescar, your PC will be able to update to Windows 11 - you'll still need to install it. 
 
@@ -30,5 +29,6 @@ After running Refrescar, your PC will be able to update to Windows 11 - you'll s
 3. Make your changes and commit them: `git commit -m '<commit_message>'`
 4. Push to the original branch: `git push origin <project_name>/<location>`
 5. Create the pull request.
+
 
 Alternatively, see the GitHub documentation on [creating a pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
