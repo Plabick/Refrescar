@@ -7,7 +7,7 @@ Why is this needed? Microsoft artificially blocks Windows 11 from being installe
 ## Usage
 
 #### Download and Run Refrescar
-Download the latest version of Refrescar from (here)[https://github.com/Plabick/Refrescar/releases/]. **Run Refrescar with administrator permissions by right-clicking on Refrescar.exe and clicking `Run as administrator`.** You must run Refrescar with administrator permissions so it can modify the Windows Registry.
+Download the latest version of Refrescar from [here](https://github.com/Plabick/Refrescar/releases/). **Run Refrescar with administrator permissions by right-clicking on Refrescar.exe and clicking `Run as administrator`.** You must run Refrescar with administrator permissions so it can modify the Windows Registry.
 
 #### Using Refrescar
 Once Refrescar is running, it's very simple to use. Simply click the only button in the window.
